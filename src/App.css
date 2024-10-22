@@ -71,6 +71,7 @@ body {
 }
 .download_btn {
   display: block;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -79,5 +80,10 @@ body {
   }
   .content_title {
     font-size: 40px;
+  }
+
+  .download_btn {
+  display: block;
+  margin-top: 20px;
   }
 }
