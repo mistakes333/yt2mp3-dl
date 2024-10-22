@@ -52,11 +52,7 @@ const App = () => {
       if (response.data && response.data.link) {
         setDownloadLink(response.data.link);
         setIsSearching(false); // ซ่อนปุ่ม Search เมื่อมีลิงค์ดาวน์โหลด
-        Swal.fire({
-          icon: 'success',
-          title: 'Success',
-          text: 'Your MP3 is ready for download.',
-        });
+        
       }
     } catch (error) {
       console.error('Error:', error);
